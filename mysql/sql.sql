@@ -1,6 +1,3 @@
-DROP DATABASE IF EXISTS rw_102;
-CREATE DATABASE rw_102;
-USE rw_102;
 DROP TABLE IF EXISTS department;
 CREATE TABLE department(
    department_id		INT,
@@ -9,7 +6,7 @@ CREATE TABLE department(
 
 -- user: id, fullname, user_name, brith_of_date, gender
 (
-	id 				INT,CREATE TABLE user
+	id 				INT,CREATE TABLE user,
 	full_name 		VARCHAR(50),
 	birth_of_date 	DATE,
 	gender 			ENUM('male','female'),
