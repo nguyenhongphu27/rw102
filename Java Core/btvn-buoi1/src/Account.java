@@ -7,7 +7,7 @@ public class Account {
     Department department;
     Position position;
 
-    void thongTinCuaAccount(){
+    void thongTinCuaAccount() {
         System.out.println("id " + id);
         System.out.println("email " + email);
         System.out.println("userName " + userName);
