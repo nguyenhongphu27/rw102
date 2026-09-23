@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class Program {
     public static void main(String[] args) {
         Department department1 = new Department();
@@ -75,17 +77,17 @@ public class Program {
         GroupAccount groupAccount1 = new GroupAccount();
         groupAccount1.account = account1;
         groupAccount1.group = group1;
-        groupAccount1.joinDate = "2026-03-01 09:00:00";
+        groupAccount1.joinDate = LocalDate.of(2026,03,01);
 
         GroupAccount groupAccount2 = new GroupAccount();
         groupAccount2.account = account2;
         groupAccount2.group = group2;
-        groupAccount2.joinDate = "2026-03-02 09:00:00";
+        groupAccount2.joinDate = LocalDate.of(2026,03,02);
 
         GroupAccount groupAccount3 = new GroupAccount();
         groupAccount3.account = account3;
         groupAccount3.group = group3;
-        groupAccount3.joinDate = "2026-03-03 09:00:00";
+        groupAccount3.joinDate = LocalDate.of(2026,03,03);
 
         //=========================================
         //TypeQuestion
@@ -165,7 +167,7 @@ public class Program {
         exam1.code = "JV101";
         exam1.title = "Java Quick Quiz";
         exam1.duration = "30";
-        exam1.createdDate = "2026-08-21 19:59:59";
+        exam1.createdDate = LocalDate.of(2026,10,20);
         exam1.creator = account1;
         exam1.categoryQuestion = categoryQuestion1;
 
@@ -174,7 +176,7 @@ public class Program {
         exam2.code = "SQ201";
         exam2.title = "SQL Starter Test";
         exam2.duration = "45";
-        exam2.createdDate = "2026-08-21 19:59:59";
+        exam2.createdDate = LocalDate.of(2026,10,21);
         exam2.creator = account2;
         exam2.categoryQuestion = categoryQuestion2;
 
@@ -183,7 +185,7 @@ public class Program {
         exam3.code = "SC401";
         exam3.title = "Scrum Mini Check";
         exam3.duration = "35";
-        exam3.createdDate = "2026-08-21 19:59:59";
+        exam3.createdDate = LocalDate.of(2026,10,22);
         exam3.creator = account3;
         exam3.categoryQuestion = categoryQuestion3;
 
