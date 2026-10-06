@@ -1,0 +1,11 @@
+package backend.service;
+
+import entity.CanBo;
+
+import java.util.List;
+
+public interface ICanBoService {
+    List<CanBo> findAll();
+
+    List<CanBo> findByName(String ten);
+}

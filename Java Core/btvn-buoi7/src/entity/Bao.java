@@ -1,5 +1,7 @@
 package entity;
 
+import java.time.LocalDate;
+
 public class Bao extends TaiLieu {
     private int ngayPhatHanh;
 
